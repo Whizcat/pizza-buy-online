@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+body {
+  font-family: arial, sans-serif;
+  /* background-color: #F2DDA4 !important; */
+  font-size: 0.75em;
+  background-image: url(https://www.findingtheuniverse.com/wp-content/uploads/2017/11/Scott2BMonument2BEdinburgh_by_Laurence2BNorah-3255B3255D.jpg)
+}
+
+.small {
+  background-color: #A3C4BC;
+  padding: 1em;
+  margin: auto;
+  width: 80%;
+  border-radius: 1em;
+
+
+}
+.smallText{
+  font-size: 1.3em;
+}
+nav {
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid rgb(193, 212, 193);
+  margin-bottom: 7px;
+  box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+  font-family: 'Sacramento', cursive;
+  
+}
+
+.medium {
+  background-color: #BFD7B5;
+  padding: 1em;
+  margin: auto;
+  width: 80%;
+  border-radius: 1em;
+}
+
+.large {
+  background-color: #E7EFC5;
+  padding: 1em;
+  margin: auto;
+  width: 80%;
+  border-radius: 1em;
+  flex: 2;
+}
+
+.specials div {
+  flex: 1;
+  margin: 3em;
+  padding: 1em;
+  text-align: center;
+
+}
+
+.small img {
+  margin-top: 1.5em;
+  width: 4em;
+  border-radius: 5em;
+
+}
+
+.medium img {
+  width: 5em;
+  border-radius: 5em;
+
+}
+
+
+.large img {
+  width: 7em;
+  border-radius: 5em;
+
+
+}
+button{
+  margin: 0.7em !important;
+  text-align: center !important;
+}
+.cart {
+  background-color: #f7f7f7;
+  /* width: 20em; */
+  border-radius: 0.50em;
+  padding: 0.23em;
+  cursor: pointer;
+  float: right;
+  text-align: center;
+
+  position: fixed;
+  /* width: 100%; */
+  /* margin: auto; */
+  /* width: 20%; */
+  /* min-height: 15em; */
+  top: 0em;
+  right: 0em;
+  margin-right: 1em;
+  padding: 1em;
+  /* border: 0.1em solid; */
+  /* border-radius: 0.25em; */
+  /* z-index: 1000; */
+
+}
+
+.heading {
+  color: rgb(168, 195, 168);
+ font-size: 4.1em;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+.payAmount{
+  display: flex;
+  flex-direction: row;
+font-size: 2em !important;
+}
+.footer {
+  display: flex;
+  border-style: solid;
+  border-top: 2px solid rgb(193, 212, 193);
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+}
+
+.footer div {
+  flex: 1;
+  /* margin-top: 1em; */
+  padding: 0.15em;
+  background-color: #f7f7f7;
+}
+/* The snackbar - position it at the bottom and in the middle of the screen */
+#snackbar, #snackbar2 {
+  visibility: hidden; /* Hidden by default. Visible on click */
+  min-width: 250px; /* Set a default minimum width */
+  margin-left: -125px; /* Divide value of min-width by 2 */
+  background-color: #333; /* Black background color */
+  color: #fff; /* White text color */
+  text-align: center; /* Centered text */
+  border-radius: 2px; /* Rounded borders */
+  padding: 16px; /* Padding */
+  position: fixed; /* Sit on top of the screen */
+  z-index: 1; /* Add a z-index if needed */
+  left: 50%; /* Center the snackbar */
+  bottom: 70px; /* 30px from the bottom */
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbar.show, #snackbar2.show {
+  visibility: visible; /* Show the snackbar */
+  /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+  However, delay the fade out process for 2.5 seconds */
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 70px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 70px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 70px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 70px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+@media (min-width: 768px) {
+
+  .specials {
+    display: flex;
+  }
+
+  body {
+    font-size: 1em;
+  }
+
+}
