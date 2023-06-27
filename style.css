@@ -24,10 +24,10 @@ nav {
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 2px solid rgb(193, 212, 193);
+  border-bottom: 2px solid rgb(10, 137, 10);
   margin-bottom: 7px;
   box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
-  font-family: 'Sacramento', cursive;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   
 }
 
@@ -81,13 +81,19 @@ button{
   text-align: center !important;
 }
 .cart {
-  background-color: #f7f7f7;
+  background-color: green;
   /* width: 20em; */
+  
   border-radius: 0.50em;
   padding: 0.23em;
   cursor: pointer;
   float: right;
   text-align: center;
+  
+  
+    width: 100px; /* Adjust the width to your desired size */
+    height: 100px; /* Adjust the height to your desired size */
+  
 
   position: fixed;
   /* width: 100%; */
@@ -103,6 +109,8 @@ button{
   /* z-index: 1000; */
 
 }
+
+
 
 .heading {
   color: rgb(168, 195, 168);
