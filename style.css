@@ -81,18 +81,18 @@ button{
   text-align: center !important;
 }
 .cart {
-  background-color: green;
+  background-color: cornsilk;
   /* width: 20em; */
   
   border-radius: 0.50em;
   padding: 0.23em;
   cursor: pointer;
-  float: right;
-  text-align: center;
+  float: left;
+  text-align: left;
   
   
-    width: 100px; /* Adjust the width to your desired size */
-    height: 100px; /* Adjust the height to your desired size */
+    width: 20%px; /* Adjust the width to your desired size */
+    height: 10%px; /* Adjust the height to your desired size */
   
 
   position: fixed;
